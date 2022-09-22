@@ -15,10 +15,10 @@ $$ \sum_{j}^{}x_{ijk} = 1\  for\ i\ = 1..9, k = 1..9 $$
 $$ \sum_{i}^{}x_{ijk} = 1\  for\ j\ = 1..9, k = 1..9 $$
 
 ### RULE 4 - submatrix constraint
-$$ \sum_{3i0 - 2 }^{3i0} \sum_{3j0 - 2}^{3i0} x_{ijk} = 1\  for\ i0 = 1..3, j0 = 1..3 $$
+$$ \sum_{3_{i0} - 2 }^{3_{i0}} \sum_{3j0 - 2}^{3i0} x_{ijk} = 1\  for\ i0 = 1..3, j0 = 1..3 $$
 
 ## AMPL CODE (.mod)
-$$ ![](sudoku-ampl-mod.png).$$
+![](sudoku-ampl-mod.png).
 
 ## AMPL PRINT (.dat) 
 ![](sudoku-ampl-dat.png).
