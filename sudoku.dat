@@ -1,0 +1,16 @@
+solve;
+
+printf "[+] SUDOKU SOLUTION";
+
+# print solution
+for {i in 1..9} {
+    if i = 1 then printf "\n\n |-------|-------|-------|\n"; 
+    if (i = 4 or i = 7) then printf " |-------|-------|-------|\n";
+
+    for {j in 1..9} {
+        if (j mod 3) = 1 then { printf " |";} 
+        printf " %1d", round(sum {k in 1..9} k * x[i,j,k]); # preenche a tabela com os k numeros
+    } 
+    printf " |\n";
+    if  i = 9 then printf " |-------|-------|-------|\n";
+}
