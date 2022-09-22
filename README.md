@@ -23,7 +23,7 @@ $$ \sum_{3_{i0} - 2 }^{3_{i0}} \sum_{3_{j0} - 2}^{3_{j0}} x_{ijk} = 1\  for\ i_0
 
 
 ## AMPL PRINT (.dat) 
-[sudoku.mod](sudoku.dat)
+[sudoku.dat](sudoku.dat)
 ![](sudoku-ampl-dat.png)
 
 ## RESULT
