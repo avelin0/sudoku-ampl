@@ -2,7 +2,7 @@
 A Sudoku Implementation in AMPL
 
 ## Decision Variable
-$$ x_{ijk} = 1 $$ if number k is in row i, column j; 0, on the contrary;
+$$ x_{ijk} = 1\ if\ number\ k\ is\ in\ row\ i,\ column\ j;\ 0,\ on\ the\ contrary; $$ 
 
 ### RULE 1 - cell constraint 
 $$ \sum_{k}^{}x_{ijk} = 1  for i = 1..9, j = 1..9 $$
