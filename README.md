@@ -18,13 +18,13 @@ $$ \sum_{i}^{}x_{ijk} = 1\  for\ j\ = 1..9, k = 1..9 $$
 $$ \sum_{3_{i0} - 2 }^{3_{i0}} \sum_{3_{j0} - 2}^{3_{j0}} x_{ijk} = 1\  for\ i_0 = 1..3, j_0 = 1..3 $$
 
 ## AMPL CODE (.mod)
-[sudoku.mod](sudoku.mod)
 ![](sudoku-ampl-mod.png).
+[sudoku.mod](sudoku.mod)
 
 
 ## AMPL PRINT (.dat) 
-[sudoku.dat](sudoku.dat)
 ![](sudoku-ampl-dat.png)
+[sudoku.dat](sudoku.dat)
 
 ## RESULT
 ![](sudoku-ampl-result.png)
